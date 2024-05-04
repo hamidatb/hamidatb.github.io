@@ -80,11 +80,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          Here, you'll find a collection of projects that not only showcase my technical skills
+          but also highlight my journey as I grow as a programmer. 
+          These projects are a testament to my ability to tackle complex challenges,
+          utilize diverse technologies, and manage projects from conception to completion. 
+    
         </motion.p>
       </div>
 
@@ -97,4 +97,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

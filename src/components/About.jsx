@@ -47,11 +47,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        <p> I'm a 3rd year Computing Science Specialization student at the University of Alberta
+          who is dedicated to leveraging technology for social good. 🤖🌟
+        </p>
+        <br></br>
+        <p>
+          I thrive on solving complex problems and am continually learning to enhance my skills in impactful projects.
+        </p>
+        <p>
+        <br></br>
+        When I'm not coding, I enjoy reading, oil painting, and spending quality time with friends and family.
+        </p>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
