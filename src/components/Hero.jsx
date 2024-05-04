@@ -23,10 +23,6 @@ const Hero = () => {
            👋🏾 I'm a Computing Science Specialization student at the University of Alberta. 
            I'm passionate about building impactful software and harnessing technology to spark positive social change.
           </p>
-          <br></br>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Take a look at my work below.
-          </p>
         </div>
       </div>
 

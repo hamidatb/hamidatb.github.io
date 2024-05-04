@@ -22,7 +22,7 @@ const Contact = () => {
             🔗 Email: <a href="mailto:bellohamidat@gmail.com">bellohamidat@gmail.com</a> 
           </p>
           <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
-            🔗 LinkedIn: <a href="https://www.linkedin.com/in/hamidatbello" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/hamidatbello</a> 
+            🔗 LinkedIn: <a href="https://www.linkedin.com/in/hamidatbello" target="_blank" rel="noopener noreferrer">linkedin.com/in/hamidatbello</a> 
           </p>
         </div>
       </motion.div>
