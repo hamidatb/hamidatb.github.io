@@ -1,179 +1,163 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    python1,
-  } from "../assets";
-  
-  export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-        id: "projects",
-        title: "Projects",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
-  ];
-  
-  const services = [
-    {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
-  ];
-  
-  const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
-  
-  const experiences = [
-    {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-  ];
-  
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  python1,
+  rehab,
+  uber,
+  athenacodes,
+  signspell,
+  studycirle,
+  announceace,
+  spss,
+  c,
+  matlab,
+  r,
+  sql
+} from "../assets";
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "work",
+    title: "Experience",
+  },
+  {
+    id: "contact",
+    title: "Contact",
+  },
+];
+
+const services = [
+  {
+    title: "Creative Innovator",
+    icon: web,
+  },
+  {
+    title: "Tech Enthusiast",
+    icon: mobile,
+  },
+  {
+    title: "Strategic Thinker",
+    icon: backend,
+  },
+  {
+    title: "Agile Learner",
+    icon: creator,
+  },
+];
+
+const technologies = [
+  {
+    name: "Python",
+    icon: python1,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
+  {
+    name: "MatLab",
+    icon: matlab,
+  },
+  {
+    name: "IBM SPSS",
+    icon: spss,
+  },
+  {
+    name: "R",
+    icon: r,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+];
+
+const experiences = [
+  {
+    title: "Founder",
+    company_name: "AthenaCodes",
+    icon: athenacodes,
+    iconBg: "#383E56",
+    date: "March 2023 – Present",
+    points: [
+      "Established a platform dedicated to amplifying female representation in the tech industry.",
+      "Curated resources including coding classes, internship opportunities, and scholarships.",
+    ],
+  },
+  {
+    title: "Undergraduate Research Assistant",
+    company_name: "Rehabilitation Robotics Laboratory, University of Alberta",
+    icon: rehab,
+    iconBg: "#E6DEDD",
+    date: "May 2023 – August 2023",
+    points: [
+      "Developed a generalized additive model in MATLAB to analyze over 40,000 data points for validating wheelchair activity monitors.",
+      "Designed Python programs to preprocess data for statistical validation with IBM SPSS.",
+    ],
+  },
+  {
+    title: "Software Engineering Fellow",
+    company_name: "Uber",
+    icon: uber,
+    iconBg: "#383E56",
+    date: "March 2024 - Present",
+    points: [
+      "Actively engaging in workshops focused on enhancing technical knowledge and professional skills.",
+      "Collaborating with industry mentors, tailored to achieving professional milestones and enhancing technical competencies.",
+      "Selected for the 2024 Uber Career Prep cohort, with a less than 4% acceptance rate.",  
+    ],
+  },
+];
   const testimonials = [
     {
       testimonial:
@@ -203,68 +187,69 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SignSpell AI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An interactive web-based platform for learning sign language, using real-time gesture recognition and machine learning.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Machine Learning",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: signspell,
+      source_code_link: "https://github.com/hamidatb/SignSpell-AI",
     },
     {
-      name: "Job IT",
+      name: "AnnounceAce",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Discord bot designed to automate the scheduling and announcement process, enhancing server management and user engagement.",
       tags: [
         {
-          name: "react",
+          name: "Discord API",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "GPT-3.5 Turbo",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: announceace,
+      source_code_link: "https://github.com/hamidatb/AnnounceAce",
     },
     {
-      name: "Trip Guide",
+      name: "StudyCircle",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application dedicated to connecting University of Alberta students with compatible study groups. Our app is designed to facilitate seamless collaboration, enhance academic success, and cater to the unique needs of the UAlberta community.",
       tags: [
         {
-          name: "nextjs",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: studycirle,
+      source_code_link: "https://github.com/StudyCircleorg/StudyCircle",
     },
+
   ];
   
   export { services, technologies, experiences, testimonials, projects };

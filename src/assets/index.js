@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,15 +21,28 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python1 from "./tech/python1.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import uber from "./company/Uber.png";
+import rehab from "./company/rehab_robotics.jpeg";
+import athenacodes from "./company/athenacodes.png";
+import spss from  "./company/spss.png";
+import c from  "./company/c.png";
+import matlab from  "./company/matlab.png";
+import r from  "./company/r.png";
+import sql from  "./company/sql.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import signspell from "./signspell.jpeg";
+import studycirle from "./studycircle.png";
+import announceace from "./announceace.png";
+
 
 export {
   logo,
@@ -59,4 +73,16 @@ export {
   carrent,
   jobit,
   tripguide,
+  python1,
+  uber,
+  rehab,
+  athenacodes,
+  signspell,
+  studycirle,
+  announceace,
+  spss,
+  c,
+  matlab,
+  r,
+  sql
 };
