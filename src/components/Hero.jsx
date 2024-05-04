@@ -19,13 +19,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Hamidat</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I try to not break my own website <br className='sm:block hidden' />
+            I develop AI-based programs, user <br className='sm:block hidden' />
             interfaces and web applications
           </p>
         </div>
       </div>
 
-      <starsCanvas />
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
