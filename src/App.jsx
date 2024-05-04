@@ -3,7 +3,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 
 const App = () => {
   return (
-    <HashRouter>
+    <BrowserRouter>
       {/* Container for all page components with a background setup */}
       <div className="relative z-0 bg-primary">
         {/* Section containing the Navbar and Hero components with specific background styling */}
@@ -20,7 +20,7 @@ const App = () => {
           <StarsCanvas />{/* The visual starry background */}
         </div>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
