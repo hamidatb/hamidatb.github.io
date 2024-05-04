@@ -14,7 +14,7 @@ const App = () => {
         <About />      
         <Experience /> 
         <Works />      
-        <Tech />      
+        <Tech />
         <div className="relative z-0">
           <Contact />    {/* Contact section for visitors to reach out :) */}
           <StarsCanvas />{/* The visual starry background */}
