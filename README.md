@@ -1,4 +1,4 @@
-# Hamidat Bello's Portfolio Website
+# My Portfolio Website
 
 Welcome to the GitHub repository for my personal portfolio website, which showcases my projects, skills, and experiences in the field of software engineering. This website serves as a professional platform to connect with peers and potential employers.
 
