@@ -35,6 +35,7 @@ import c from  "./company/c.png";
 import matlab from  "./company/matlab.png";
 import r from  "./company/r.png";
 import sql from  "./company/sql.jpg";
+import microsoft from  "./company/microsoft.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,6 +43,7 @@ import tripguide from "./tripguide.png";
 import signspell from "./signspell.jpeg";
 import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
+import quicknotes from "./quicknotes.png";
 
 
 export {
@@ -84,5 +86,7 @@ export {
   c,
   matlab,
   r,
-  sql
+  sql,
+  microsoft,
+  quicknotes
 };
