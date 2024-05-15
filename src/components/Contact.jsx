@@ -17,7 +17,10 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <div className='mt-12 flex flex-col gap-8'>
-          <p className='text-white font-medium mb-4'>You can reach me via email or on LinkedIn:</p>
+          <p className='text-white font-medium mb-4'>You can reach me via GitHub, email or on LinkedIn:</p>
+          <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
+            🔗 GitHub: <a href="https://github.com/hamidatb" target="_blank" rel="noopener noreferrer">github.com/hamidatb</a>
+          </p>
           <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
             🔗 Email: <a href="mailto:bellohamidat@gmail.com">bellohamidat@gmail.com</a> 
           </p>

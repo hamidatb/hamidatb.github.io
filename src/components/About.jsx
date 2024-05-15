@@ -47,10 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
+        <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
+            🔗 GitHub: <a href="https://github.com/hamidatb" target="_blank" rel="noopener noreferrer">github.com/hamidatb</a>
+        </p>
+        <br></br>
         <p> I'm a 3rd year Computing Science Specialization student at the University of Alberta
           who is dedicated to leveraging technology for social good. 🤖🌟
         </p>
-        <br></br>
+      
         <p>
           I thrive on solving complex problems and am continually learning to enhance my skills in impactful projects.
         </p>

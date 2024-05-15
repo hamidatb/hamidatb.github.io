@@ -3,9 +3,6 @@ import {
 } from "./chunk-KJFAWGIA.js";
 import "./chunk-UWVSU6CR.js";
 import {
-  require_prop_types
-} from "./chunk-YLFKALMF.js";
-import {
   _extends,
   addAfterEffect,
   addEffect,
@@ -213,6 +210,9 @@ import {
   ZeroFactor,
   three_module_exports
 } from "./chunk-V35BWCE2.js";
+import {
+  require_prop_types
+} from "./chunk-YLFKALMF.js";
 import {
   require_react
 } from "./chunk-2PA4WPI3.js";
