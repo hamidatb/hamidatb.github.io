@@ -27,3 +27,6 @@ dist-ssr
 
 # vscode
 .vscode
+
+# Ignore workflow documentation
+WORKFLOW.md
