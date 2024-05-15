@@ -140,7 +140,7 @@ const experiences = [
     title: "Undergraduate Research Assistant",
     company_name: "Rehabilitation Robotics Laboratory, University of Alberta",
     icon: rehab,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "May 2023 – August 2023",
     points: [
       "Developed a generalized additive model in MATLAB to analyze over 40,000 data points for validating wheelchair activity monitors.",
@@ -163,7 +163,7 @@ const experiences = [
     title: "Software Engineer & Product Management Intern (Explore)",
     company_name: "Microsoft",
     icon: microsoft,
-    iconBg: "#F3F3F3",  // Example background color, change as needed
+    iconBg: "#383E56", 
     date: "May 2024 - Present",
     points: [
       "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
