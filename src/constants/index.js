@@ -126,25 +126,14 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Founder",
-    company_name: "AthenaCodes",
-    icon: athenacodes,
-    iconBg: "#383E56",
-    date: "March 2023 – Present",
+    title: "Software Engineer & Product Management Intern (Explore)",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#383E56", 
+    date: "May 2024 - Present",
     points: [
-      "Established a platform dedicated to amplifying female representation in the tech industry.",
-      "Curated resources including coding classes, internship opportunities, and scholarships.",
-    ],
-  },
-  {
-    title: "Undergraduate Research Assistant",
-    company_name: "Rehabilitation Robotics Laboratory, University of Alberta",
-    icon: rehab,
-    iconBg: "#383E56",
-    date: "May 2023 – August 2023",
-    points: [
-      "Developed a generalized additive model in MATLAB to analyze over 40,000 data points for validating wheelchair activity monitors.",
-      "Designed Python programs to preprocess data for statistical validation with IBM SPSS.",
+      "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
+      "Contributing to the development of scalable serverless applications that empower global businesses.",
     ],
   },
   {
@@ -160,14 +149,25 @@ const experiences = [
     ],
   },
   {
-    title: "Software Engineer & Product Management Intern (Explore)",
-    company_name: "Microsoft",
-    icon: microsoft,
-    iconBg: "#383E56", 
-    date: "May 2024 - Present",
+    title: "Undergraduate Research Assistant",
+    company_name: "Rehabilitation Robotics Laboratory, University of Alberta",
+    icon: rehab,
+    iconBg: "#383E56",
+    date: "May 2023 – August 2023",
     points: [
-      "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
-      "Contributing to the development of scalable serverless applications that empower global businesses.",
+      "Developed a generalized additive model in MATLAB to analyze over 40,000 data points for validating wheelchair activity monitors.",
+      "Designed Python programs to preprocess data for statistical validation with IBM SPSS.",
+    ],
+  },
+  {
+    title: "Founder",
+    company_name: "AthenaCodes",
+    icon: athenacodes,
+    iconBg: "#383E56",
+    date: "March 2023 – Present",
+    points: [
+      "Established a platform dedicated to amplifying female representation in the tech industry.",
+      "Curated resources including coding classes, internship opportunities, and scholarships.",
     ],
   },
 ];
