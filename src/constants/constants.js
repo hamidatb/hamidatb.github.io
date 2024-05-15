@@ -200,6 +200,27 @@ const experiences = [
   
   const projects = [
     {
+      name: "QuickNotes",
+      description:
+        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quicknotes,
+      source_code_link: "https://github.com/hamidatb/QuickNotes",
+    },
+    {
       name: "SignSpell AI",
       description:
         "An interactive web-based platform for learning sign language, using real-time gesture recognition and machine learning.",
