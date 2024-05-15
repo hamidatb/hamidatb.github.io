@@ -45,8 +45,8 @@ export const navLinks = [
     title: "About",
   },
   {
-      id: "projects",
-      title: "Projects",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -140,7 +140,7 @@ const experiences = [
     title: "Undergraduate Research Assistant",
     company_name: "Rehabilitation Robotics Laboratory, University of Alberta",
     icon: rehab,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "May 2023 – August 2023",
     points: [
       "Developed a generalized additive model in MATLAB to analyze over 40,000 data points for validating wheelchair activity monitors.",
@@ -157,6 +157,17 @@ const experiences = [
       "Actively engaging in workshops focused on enhancing technical knowledge and professional skills.",
       "Collaborating with industry mentors, tailored to achieving professional milestones and enhancing technical competencies.",
       "Selected for the 2024 Uber Career Prep cohort, with a less than 4% acceptance rate.",  
+    ],
+  },
+  {
+    title: "Software Engineer & Product Management Intern (Explore)",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#383E56", 
+    date: "May 2024 - Present",
+    points: [
+      "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
+      "Contributing to the development of scalable serverless applications that empower global businesses.",
     ],
   },
 ];
@@ -188,6 +199,27 @@ const experiences = [
   ];
   
   const projects = [
+    {
+      name: "QuickNotes",
+      description:
+        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quicknotes,
+      source_code_link: "https://github.com/hamidatb/QuickNotes",
+    },
     {
       name: "SignSpell AI",
       description:
