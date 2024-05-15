@@ -20,13 +20,16 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
            <br className='sm:block hidden' />
-           👋🏾 I'm a Computing Science Specialization student at the University of Alberta. 
-           I'm passionate about building impactful software and harnessing technology to spark positive social change.
+           👋🏾 I'm a future-driven Computing Science student at the University of Alberta, dedicated to creating software solutions that make a difference. 
+           Dive into my portfolio to see how I blend innovation with purpose.
+        
           </p>
+          
         </div>
       </div>
 
-      <ComputersCanvas />
+      
+      <ComputersCanvas className="mt-12" /> {/* Increase top margin - Tailwind */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
