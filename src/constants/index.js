@@ -34,7 +34,9 @@ import {
   c,
   matlab,
   r,
-  sql
+  sql,
+  microsoft,
+  quicknotes
 } from "../assets";
 
 export const navLinks = [

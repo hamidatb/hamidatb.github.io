@@ -34,7 +34,9 @@ import {
   c,
   matlab,
   r,
-  sql
+  sql,
+  microsoft,
+  quicknotes
 } from "../assets";
 
 export const navLinks = [
@@ -155,6 +157,17 @@ const experiences = [
       "Actively engaging in workshops focused on enhancing technical knowledge and professional skills.",
       "Collaborating with industry mentors, tailored to achieving professional milestones and enhancing technical competencies.",
       "Selected for the 2024 Uber Career Prep cohort, with a less than 4% acceptance rate.",  
+    ],
+  },
+  {
+    title: "Software Engineer & Product Management Intern (Explore)",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#F3F3F3",  // Example background color, change as needed
+    date: "May 2024 - Present",
+    points: [
+      "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
+      "Contributing to the development of scalable serverless applications that empower global businesses.",
     ],
   },
 ];

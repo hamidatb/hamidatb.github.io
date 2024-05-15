@@ -25,12 +25,3 @@ This portfolio is designed to provide a comprehensive overview of my technical s
 - **package.json & package-lock.json**: NPM configuration files listing project dependencies.
 - **.eslintrc.cjs, postcss.config.cjs, tailwind.config.cjs, vite.config.js**: Configuration files for ESLint, PostCSS, TailwindCSS, and Vite respectively.
 
-## Installation
-
-To clone and run this portfolio locally, follow these steps:
-
-```bash
-git clone https://github.com/hamidatb/hamidatb.github.io.git
-cd hamidatb.github.io
-npm install
-npm run dev
