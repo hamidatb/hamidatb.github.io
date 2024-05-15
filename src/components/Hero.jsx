@@ -22,7 +22,6 @@ const Hero = () => {
            <br className='sm:block hidden' />
            👋🏾 I'm a future-driven Computing Science student at the University of Alberta, dedicated to creating software solutions that make a difference. 
            Dive into my portfolio to see how I blend innovation with purpose.
-        
           </p>
           
         </div>
