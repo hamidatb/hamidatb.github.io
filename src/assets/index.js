@@ -45,6 +45,10 @@ import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
 import quicknotes from "./quicknotes.png";
 
+import aitictactoeplayer from "./aitictactoeplayer.png";
+import csharp from "./csharp.png";
+import azure from "./azure.png";
+import dotnet from "./dotnet.png";
 
 export {
   logo,
@@ -88,5 +92,9 @@ export {
   r,
   sql,
   microsoft,
-  quicknotes
+  quicknotes,
+  aitictactoeplayer,
+  csharp,
+  azure,
+  dotnet,
 };
