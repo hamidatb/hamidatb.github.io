@@ -120,7 +120,7 @@ const technologies = [
   },
   {
     name: "docker",
-    icon: Docker,
+    icon: docker,
   },
   {
     name: "R",

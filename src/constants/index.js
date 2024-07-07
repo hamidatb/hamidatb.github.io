@@ -36,7 +36,11 @@ import {
   r,
   sql,
   microsoft,
-  quicknotes
+  quicknotes,
+  aitictactoeplayer,
+  csharp,
+  azure,
+  dotnet,
 } from "../assets";
 
 export const navLinks = [
@@ -60,7 +64,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Creative Innovator",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
@@ -87,16 +91,20 @@ const technologies = [
     icon: c,
   },
   {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
   {
     name: "CSS 3",
     icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
   },
   {
     name: "SQL",
@@ -111,12 +119,24 @@ const technologies = [
     icon: spss,
   },
   {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "R",
     icon: r,
   },
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: ".net",
+    icon: dotnet,
   },
   {
     name: "figma",
@@ -200,27 +220,6 @@ const experiences = [
   
   const projects = [
     {
-      name: "QuickNotes",
-      description:
-        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: quicknotes,
-      source_code_link: "https://github.com/hamidatb/QuickNotes",
-    },
-    {
       name: "SignSpell AI",
       description:
         "An interactive web-based platform for learning sign language, using real-time gesture recognition and machine learning.",
@@ -240,6 +239,27 @@ const experiences = [
       ],
       image: signspell,
       source_code_link: "https://github.com/hamidatb/SignSpell-AI",
+    },
+    {
+      name: "QuickNotes",
+      description:
+        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quicknotes,
+      source_code_link: "https://github.com/hamidatb/QuickNotes",
     },
     {
       name: "AnnounceAce",
@@ -283,6 +303,27 @@ const experiences = [
       image: studycirle,
       source_code_link: "https://github.com/StudyCircleorg/StudyCircle",
     },
+    {
+      name: "AI Tic Tac Toe Player",
+      description:
+        "I created this AI-driven Tic Tac Toe project to highlight the application of the Minimax algorithm, providing an unbeatable opponent that showcases the integration of classic game theory and artificial intelligence.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Artifical Intelligence",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Game Theory & Algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aitictactoeplayer,
+      source_code_link: "https://github.com/hamidatb/MinMax-TicTacToe-Player",
+    }
 
   ];
   
