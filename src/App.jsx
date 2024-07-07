@@ -2,6 +2,7 @@ import { HashRouter as Router } from "react-router-dom";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 
 const App = () => {
+  console.log("App component is rendering");
   return (
     <Router>
       <div className="relative z-0 bg-primary">
