@@ -24,4 +24,4 @@ This portfolio is designed to provide a comprehensive overview of my technical s
 - **index.html**: The entry point of the website.
 - **package.json & package-lock.json**: NPM configuration files listing project dependencies.
 - **.eslintrc.cjs, postcss.config.cjs, tailwind.config.cjs, vite.config.js**: Configuration files for ESLint, PostCSS, TailwindCSS, and Vite respectively.
-
+ 
