@@ -22,6 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python1 from "./tech/python1.png";
+import csharp from "./tech/csharp.png";
+import azure from "./tech/azure.png";
+import dotnet from  "./tech/dotnet.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -44,6 +47,7 @@ import signspell from "./signspell.jpeg";
 import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
 import quicknotes from "./quicknotes.png";
+import aitictactoe from "./aitictactoeplayer.png"
 
 
 export {
@@ -88,5 +92,9 @@ export {
   r,
   sql,
   microsoft,
-  quicknotes
+  quicknotes,
+  azure,
+  dotnet,
+  csharp,
+  aitictactoe
 };

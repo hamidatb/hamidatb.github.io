@@ -1,31 +1,35 @@
 import {
-  mobile,
+  logo,
   backend,
   creator,
+  mobile,
   web,
-  javascript,
-  typescript,
-  html,
+  github,
+  menu,
+  close,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+  typescript,
+  threejs,
   meta,
+  shopify,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
   python1,
-  rehab,
   uber,
+  rehab,
   athenacodes,
   signspell,
   studycirle,
@@ -36,9 +40,15 @@ import {
   r,
   sql,
   microsoft,
-  quicknotes
+  quicknotes,
+  azure,
+  dotnet,
+  csharp,
+  aitictactoe
 } from "../assets";
 
+// If updating, update index.js first and then simply copy that exact file into constants.js.
+// Make sure any new images are exported by src/assets/index.js before updating src/constants/index.js and src/constants/constants.js
 export const navLinks = [
   {
     id: "about",
@@ -200,27 +210,6 @@ const experiences = [
   
   const projects = [
     {
-      name: "QuickNotes",
-      description:
-        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: quicknotes,
-      source_code_link: "https://github.com/hamidatb/QuickNotes",
-    },
-    {
       name: "SignSpell AI",
       description:
         "An interactive web-based platform for learning sign language, using real-time gesture recognition and machine learning.",
@@ -240,6 +229,27 @@ const experiences = [
       ],
       image: signspell,
       source_code_link: "https://github.com/hamidatb/SignSpell-AI",
+    },
+    {
+      name: "QuickNotes",
+      description:
+        "Developed Quick Notes, a Chrome extension that enables seamless note-taking and management linked to specific web pages, enhancing productivity for users engaging in extensive online research.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quicknotes,
+      source_code_link: "https://github.com/hamidatb/QuickNotes",
     },
     {
       name: "AnnounceAce",
@@ -283,6 +293,27 @@ const experiences = [
       image: studycirle,
       source_code_link: "https://github.com/StudyCircleorg/StudyCircle",
     },
+    {
+      name: "AI Tic Tac Toe Player",
+      description:
+        "I created this AI-driven Tic Tac Toe project to highlight the application of the Minimax algorithm, providing an unbeatable opponent that showcases the integration of classic game theory and artificial intelligence.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Artifical Intelligence",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Game Theory & Algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aitictactoe,
+      source_code_link: "https://github.com/hamidatb/MinMax-TicTacToe-Player",
+    }
 
   ];
   
