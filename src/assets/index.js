@@ -48,6 +48,7 @@ import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
 import quicknotes from "./quicknotes.png";
 import aitictactoe from "./aitictactoeplayer.png"
+import portfolio from "./portfolio.png"
 
 
 export {
@@ -96,5 +97,6 @@ export {
   azure,
   dotnet,
   csharp,
-  aitictactoe
+  aitictactoe,
+  portfolio
 };

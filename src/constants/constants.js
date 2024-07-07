@@ -44,7 +44,8 @@ import {
   azure,
   dotnet,
   csharp,
-  aitictactoe
+  aitictactoe,
+  portfolio
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -97,6 +98,10 @@ const technologies = [
     icon: c,
   },
   {
+    name:"C#",
+    icon: csharp
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -111,6 +116,10 @@ const technologies = [
   {
     name: "SQL",
     icon: sql,
+  },
+  {
+    name: "docker",
+    icon: docker
   },
   {
     name: "MatLab",
@@ -226,6 +235,10 @@ const experiences = [
           name: "Machine Learning",
           color: "pink-text-gradient",
         },
+        {
+          name: "Full-stack web development",
+          color: "yellow-text-gradient",  // Adding a new color for clarity
+        },
       ],
       image: signspell,
       source_code_link: "https://github.com/hamidatb/SignSpell-AI",
@@ -313,7 +326,33 @@ const experiences = [
       ],
       image: aitictactoe,
       source_code_link: "https://github.com/hamidatb/MinMax-TicTacToe-Player",
-    }
+    },
+    {
+      name: "My Portfolio (this website)",
+      description:
+      "This portfolio is a testament to my skills in front-end development and my proficiency in integrating various technologies including React and Three.js for interactive 3D graphics.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Vite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Three.js",
+          color: "yellow-text-gradient",  // Adding a new color for clarity
+        },
+      ],
+    
+      image: portfolio,
+      source_code_link: "https://github.com/hamidatb/hamidatb.github.io",
+    },
 
   ];
   
