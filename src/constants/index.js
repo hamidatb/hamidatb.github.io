@@ -48,7 +48,8 @@ import {
   spectrumsync,
   neurotune,
   auriel,
-  vim
+  vim,
+  ualberta
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -147,6 +148,17 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Machine Learning Undergraduate Student Researcher",
+    company_name: "University of Alberta, FORT Lab",
+    icon: ualberta,
+    iconBg: "#383E56",
+    date: "Sep 2024 - Present",
+    points: [
+      "Driving research on missing data handling in machine learning to enhance algorithmic robustness and reliability.",
+      "Developing scalable solutions to optimize model performance on incomplete datasets using cutting-edge methodologies."
+    ],
+  },
   {
     title: "Software Engineer & Product Management Intern (Explore)",
     company_name: "Microsoft",

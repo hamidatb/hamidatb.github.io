@@ -34,6 +34,7 @@ import tesla from "./company/tesla.png";
 import uber from "./company/Uber.png";
 import rehab from "./company/rehab_robotics.jpeg";
 import athenacodes from "./company/athenacodes.png";
+import ualberta from "./company/ualberta.png";
 import spss from  "./company/spss.png";
 import c from  "./company/c.png";
 import matlab from  "./company/matlab.png";
@@ -106,5 +107,6 @@ export {
   portfolio,
   spectrumsync,
   neurotune,
-  auriel
+  auriel,
+  ualberta
 };
