@@ -15,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  direct_app_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -44,6 +45,16 @@ const ProjectCard = ({
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
+
+            {/* Direct App Link Button (conditionally rendered) */}
+            {direct_app_link && (
+              <div
+                onClick={() => window.open(direct_app_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <span className='text-white font-bold'>APP</span>
+              </div>
+            )}
           </div>
         </div>
 
