@@ -218,6 +218,7 @@ const experiences = [
   ];
   
   const projects = [
+    // TODO: Add NeuroTune, Auriel, SpectrumSync, 
     {
       name: "SignSpell AI",
       description:
