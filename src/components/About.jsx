@@ -51,16 +51,16 @@ const About = () => {
             🔗 GitHub: <a href="https://github.com/hamidatb" target="_blank" rel="noopener noreferrer">github.com/hamidatb</a>
         </p>
         <br></br>
-        <p> I'm a 3rd year Computing Science Specialization student at the University of Alberta
-          who is dedicated to leveraging technology for social good. 🤖🌟
-        </p>
-      
         <p>
-          I thrive on solving complex problems and am continually learning to enhance my skills in impactful projects.
+        I'm a 3rd-year Computing Science student at the University of Alberta, with a love for clean code, efficient solutions, and timeless lessons from books like The Pragmatic Programmer.  
         </p>
+
         <p>
-        <br></br>
-        When I'm not coding, I enjoy reading, oil painting, and spending quality time with friends and family.
+        I thrive on solving complex problems and enjoy the challenge of learning new tools — but some things stay constant: Vim over Emacs. 
+        </p>
+
+        <p>
+        When I’m not coding, you’ll find me reading, oil painting, or spending time with loved ones.
         </p>
       </motion.p>
 

@@ -20,7 +20,7 @@ const Hero = () => {
           </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             <br className='sm:block hidden' />
-            👋🏾 I'm a third-year Computing Science student at the University of Alberta, dedicated to creating software solutions that make a difference. 
+            👋🏾 I'm a third-year Computing Science student at the University of Alberta, dedicated to creating software that solves real-world problems. 
         Dive into my portfolio to see how I blend innovation with purpose.
             </p>
             

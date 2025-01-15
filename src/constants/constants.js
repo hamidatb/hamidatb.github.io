@@ -34,7 +34,6 @@ import {
   signspell,
   studycirle,
   announceace,
-  spss,
   c,
   matlab,
   r,
@@ -48,7 +47,8 @@ import {
   portfolio,
   spectrumsync,
   neurotune,
-  auriel
+  auriel,
+  vim
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -129,10 +129,6 @@ const technologies = [
     icon: matlab,
   },
   {
-    name: "IBM SPSS",
-    icon: spss,
-  },
-  {
     name: "R",
     icon: r,
   },
@@ -144,6 +140,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "vim",
+    icon: vim,
+  }
 ];
 
 const experiences = [
@@ -278,7 +278,7 @@ const experiences = [
     {
       name: "Auriel",
       description:
-        "Auriel is an AI-powered productivity assistant designed to be your 'second brain,' helping you manage classes, tasks, ideas, and emails—all from a single app. Built with SwiftUI and Firebase, Auriel integrates with Google Calendar and Gmail, offering intelligent reminders and contextual suggestions. Currently in early development, Auriel aims to streamline productivity for busy students and professionals.",
+        "Auriel is an AI-powered productivity assistant designed to be your 'second brain,' helping you manage classes, tasks, ideas, and emails—all from a single app. Currently in early development, Auriel aims to streamline productivity for busy students and professionals.",
       tags: [
         {
           name: "SwiftUI",
