@@ -47,8 +47,11 @@ import signspell from "./signspell.jpeg";
 import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
 import quicknotes from "./quicknotes.png";
-import aitictactoe from "./aitictactoeplayer.png"
-import portfolio from "./portfolio.png"
+import aitictactoe from "./aitictactoeplayer.png";
+import portfolio from "./portfolio.png";
+import spectrumsync from "./spectrumsync.png";
+import neurotune from "./neurotune.png";
+import auriel from "./auriel.png";
 
 
 export {
@@ -98,5 +101,8 @@ export {
   dotnet,
   csharp,
   aitictactoe,
-  portfolio
+  portfolio,
+  spectrumsync,
+  neurotune,
+  auriel
 };

@@ -45,7 +45,10 @@ import {
   dotnet,
   csharp,
   aitictactoe,
-  portfolio
+  portfolio,
+  spectrumsync,
+  neurotune,
+  auriel
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -149,7 +152,7 @@ const experiences = [
     company_name: "Microsoft",
     icon: microsoft,
     iconBg: "#383E56", 
-    date: "May 2024 - Present",
+    date: "May 2024 - Aug 2024",
     points: [
       "Collaborating on a project to integrate Microsoft Azure Logic Apps and Azure Static Web Apps, enhancing cloud-based solutions and user experience.",
       "Contributing to the development of scalable serverless applications that empower global businesses.",
@@ -218,6 +221,82 @@ const experiences = [
   ];
   
   const projects = [
+    {
+      name: "SpectrumSync",
+      description:
+        "A mobile app designed to support individuals on the autism spectrum by streamlining communication and organization for families and caregivers. Stay connected, manage schedules, and enhance collaboration effortlessly. 💙",
+      tags: [
+        {
+          name: "iOS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Swift",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Azure Web Apps",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "SQL",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: spectrumsync,
+      source_code_link: "https://github.com/hamidatb/SpectrumSync",
+    },
+    {
+      name: "NeuroTune",
+      description:
+        "A web app leveraging SVM-based eye-tracking and a KAN neural network for EEG mood detection using the Muse S headband. NeuroTune delivers hands-free, personalized music experiences for individuals with motor and speech impairments, empowering them with an accessible and enjoyable way to experience music.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Machine Learning",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Support Vector Machines (SVM)",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Web App",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: neurotune,
+      source_code_link: "https://github.com/hamidatb/NeuroTune",
+    },
+    {
+      name: "Auriel",
+      description:
+        "Auriel is an AI-powered productivity assistant designed to be your 'second brain,' helping you manage classes, tasks, ideas, and emails—all from a single app. Built with SwiftUI and Firebase, Auriel integrates with Google Calendar and Gmail, offering intelligent reminders and contextual suggestions. Currently in early development, Auriel aims to streamline productivity for busy students and professionals.",
+      tags: [
+        {
+          name: "SwiftUI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Google Calendar API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: auriel,
+      source_code_link: "https://github.com/hamidatb/Auriel",
+    },
+
     {
       name: "SignSpell AI",
       description:
