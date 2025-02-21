@@ -22,7 +22,7 @@ const Contact = () => {
             🔗 GitHub: <a href="https://github.com/hamidatb" target="_blank" rel="noopener noreferrer">github.com/hamidatb</a>
           </p>
           <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
-            🔗 Email: <a href="mailto:bellohamidat@gmail.com">bellohamidat@gmail.com</a> 
+            🔗 Email: <a href="mailto:hami.develops@gmail.com">hami.develops@gmail.com</a> 
           </p>
           <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
             🔗 LinkedIn: <a href="https://www.linkedin.com/in/hamidatbello" target="_blank" rel="noopener noreferrer">linkedin.com/in/hamidatbello</a> 
