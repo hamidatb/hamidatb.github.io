@@ -154,10 +154,10 @@ const experiences = [
     company_name: "University of Alberta, FORT Lab",
     icon: ualberta,
     iconBg: "#383E56",
-    date: "Sep 2024 - Present",
+    date: "Sep 2024 - April 2025",
     points: [
-      "Driving research on missing data handling in machine learning to enhance algorithmic robustness and reliability.",
-      "Developing scalable solutions to optimize model performance on incomplete datasets using cutting-edge methodologies."
+      "Conducted research on missing data handling in machine learning to enhance algorithmic robustness and reliability.",
+      "Developed scalable solutions to optimize model performance on incomplete datasets using cutting-edge methodologies."
     ],
   },
   {

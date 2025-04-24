@@ -23,8 +23,10 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-4 mb-10 text-white-100`}>
             <br className='sm:block hidden' />
-            👋🏾 I'm a 4th-year Computing Science student at the University of Alberta, dedicated to creating software that solves real-world problems. 
-            Dive into my portfolio to see how I blend innovation with purpose.
+            👋🏾 I'm a 4th-year Computing Science student at the University of Alberta, passionate about building meaningful, user-focused software.  
+  <br /><br />
+  I thrive at the intersection of innovation and purpose<br /> — blending precision with creativity to build<br /> software that's robust, elegant, and built to last.
+
             </p>
 
             <div className="flex justify-center gap-8 mt-6">

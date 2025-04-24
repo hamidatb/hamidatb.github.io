@@ -40,35 +40,36 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>An Overview Of Me:</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
-            🔗 GitHub: <a href="https://github.com/hamidatb" target="_blank" rel="noopener noreferrer">github.com/hamidatb</a>
-        </p>
         <br></br>
         <p>
-        I'm a 3rd-year Computing Science student at the University of Alberta, with a love for clean code, efficient solutions, and timeless lessons from books like The Pragmatic Programmer.  
+          I’m a 4th-year Computing Science student at the University of Alberta, passionate about designing scalable systems, architecting clean code, and creating software with real-world impact.
         </p>
+        <br></br>
 
         <p>
-        I thrive on solving complex problems and enjoy the challenge of learning new tools — but some things stay constant: Vim over Emacs. 
+          Regarding programming, I approach software with a craftsman's mindset — inspired by timeless lessons from books like *The Pragmatic Programmer* and driven by a curiosity to solve meaningful problems through elegant engineering.
         </p>
+        <br></br>
 
         <p>
-        When I’m not coding, you’ll find me reading, oil painting, or spending time with loved ones.
+          Outside of tech (suprisingly I do do things other than code), you’ll find me immersed in books, experimenting with oil painting, or spending time with loved ones.
+        </p>
+
+        <br></br>
+
+        <p>
+          Note: A lot of my personal projects are rooted in accessibility — I believe technology should empower, not exclude, and I’m driven to build inclusive tools that reflect that. 
         </p>
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div>
+      
     </>
   );
 };
