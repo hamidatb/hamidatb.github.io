@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
+import { FaLinkedin, FaGithub, FaGlobe } from "react-icons/fa";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -26,6 +26,40 @@ const Hero = () => {
             👋🏾 I'm a 4th-year Computing Science student at the University of Alberta, dedicated to creating software that solves real-world problems. 
             Dive into my portfolio to see how I blend innovation with purpose.
             </p>
+
+            <div className="flex justify-center gap-8 mt-6">
+            <a
+              href="https://www.linkedin.com/in/hamidatbello"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#f7c9da] transition-colors duration-300 text-4xl"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin />
+            </a>
+
+            <a
+              href="https://github.com/hamidatb" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#f7c9da] transition-colors duration-300 text-4xl"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </a>
+
+            <a
+              href="https://www.athenacodes.org/about-me"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#f7c9da] transition-colors duration-300 text-4xl"
+              aria-label="Website"
+            >
+              <FaGlobe />
+            </a>
+
+
+          </div>
             
         </div>
       </div>
