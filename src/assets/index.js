@@ -27,6 +27,7 @@ import csharp from "./tech/csharp.png";
 import azure from "./tech/azure.png";
 import dotnet from  "./tech/dotnet.png";
 
+import chromeStore from "./company/chromeStore.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -108,5 +109,6 @@ export {
   spectrumsync,
   neurotune,
   auriel,
-  ualberta
+  ualberta,
+  chromeStore
 };

@@ -27,6 +27,9 @@ const Contact = () => {
           <p className='bg-tertiary py-4 px-6 text-white rounded-lg'>
             🔗 LinkedIn: <a href="https://www.linkedin.com/in/hamidatbello" target="_blank" rel="noopener noreferrer">linkedin.com/in/hamidatbello</a> 
           </p>
+          <p>
+            *I do NOT have an X.com (formerly Twitter) account.
+          </p>
         </div>
       </motion.div>
 

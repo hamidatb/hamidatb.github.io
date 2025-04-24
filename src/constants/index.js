@@ -49,7 +49,8 @@ import {
   neurotune,
   auriel,
   vim,
-  ualberta
+  ualberta,
+  chromeStore
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -175,7 +176,7 @@ const experiences = [
     company_name: "Uber",
     icon: uber,
     iconBg: "#383E56",
-    date: "March 2024 - Present",
+    date: "March 2024 - August 2024",
     points: [
       "Actively engaging in workshops focused on enhancing technical knowledge and professional skills.",
       "Collaborating with industry mentors, tailored to achieving professional milestones and enhancing technical competencies.",
@@ -287,27 +288,6 @@ const experiences = [
       image: neurotune,
       source_code_link: "https://github.com/hamidatb/NeuroTune",
     },
-    {
-      name: "Auriel",
-      description:
-        "Auriel is an AI-powered productivity assistant designed to be your 'second brain,' helping you manage classes, tasks, ideas, and emails—all from a single app. Currently in early development, Auriel aims to streamline productivity for busy students and professionals.",
-      tags: [
-        {
-          name: "SwiftUI",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Firebase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Google Calendar API",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: auriel,
-      source_code_link: "https://github.com/hamidatb/Auriel",
-    },
 
     {
       name: "SignSpell AI",
@@ -354,6 +334,7 @@ const experiences = [
       ],
       image: quicknotes,
       source_code_link: "https://github.com/hamidatb/QuickNotes",
+      direct_app_link: "https://chromewebstore.google.com/detail/quicknotes/kbiajefahoihmligpokjjlmapknnonlc",
     },
     {
       name: "AnnounceAce",
@@ -417,32 +398,6 @@ const experiences = [
       ],
       image: aitictactoe,
       source_code_link: "https://github.com/hamidatb/MinMax-TicTacToe-Player",
-    },
-    {
-      name: "My Portfolio (this website)",
-      description:
-      "This portfolio is a testament to my skills in front-end development and my proficiency in integrating various technologies including React and Three.js for interactive 3D graphics.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Vite",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "yellow-text-gradient",  // Adding a new color for clarity
-        },
-      ],
-    
-      image: portfolio,
-      source_code_link: "https://github.com/hamidatb/hamidatb.github.io",
     },
 
   ];
