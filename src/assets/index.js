@@ -56,6 +56,10 @@ import spectrumsync from "./spectrumsync.png";
 import neurotune from "./neurotune.png";
 import auriel from "./auriel.png";
 
+import uaisLogo from "./company/uaisLogo.png"
+import neuralbertaLogo from "./company/neuralbertaLogo.jpeg"
+import uabsaLogo from "./company/uabsaLogo.png"
+import blueprintLogo from "./company/blueprintLogo.jpeg"
 
 export {
   logo,
@@ -110,5 +114,9 @@ export {
   neurotune,
   auriel,
   ualberta,
-  chromeStore
+  chromeStore,
+  uaisLogo,
+  neuralbertaLogo,
+  uabsaLogo,
+  blueprintLogo
 };

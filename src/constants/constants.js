@@ -50,7 +50,11 @@ import {
   auriel,
   vim,
   ualberta,
-  chromeStore
+  chromeStore,
+  uaisLogo,
+  neuralbertaLogo,
+  uabsaLogo,
+  blueprintLogo
 } from "../assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
@@ -149,6 +153,16 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#383E56", 
+    date: "May 2025 - Aug 2025",
+    points: [
+      "Azure API Management"
+    ],
+  },
   {
     title: "Machine Learning Undergraduate Student Researcher",
     company_name: "University of Alberta, FORT Lab",
@@ -402,4 +416,78 @@ const experiences = [
 
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+
+  const leaderships = [
+    {
+      title: "President",
+      organization_name: "Undergraduate Artificial Intelligence Society (UAIS)",
+      icon: uaisLogo,
+      iconBg: "#383E56",
+      date: "Apr 2024 - Apr 2026",
+      points: [
+        "Implementing efficient organizational and communication processes for streamlined club operations and event management.",
+        "Leading the enhancement of internal communications and the monthly newsletter to engage and inform our AI enthusiast community.",
+        "Managing project teams’ organizational needs, including collaborative workspaces and scheduling for AI projects.",
+        "Secured and co-led an AI Due Diligence Research partnership with the UA Innovation Fund, evaluating AI startups for technical feasibility, ethics, and market fit.",
+      ],
+    },
+    {
+    title: "Student Ambassador",
+    organization_name: "University of Alberta",
+    icon: ualberta,
+    iconBg: "#E6DEDD",
+    date: "Apr 2025 - Present",
+    points: [
+      "Representing the University of Alberta at major institutional events, campus tours, and outreach initiatives to prospective students.",
+      "Supporting current UAlberta students by promoting campus resources, academic opportunities, and professional development programs.",
+      "Collaborating with recruitment and student services teams to enhance engagement strategies and foster a vibrant campus community.",
+     ],
+  },
+    {
+      title: "Student Advisory Committee Member",
+      organization_name: "University of Alberta",
+      icon: ualberta,
+      iconBg: "#383E56",
+      date: "Sep 2023 - Apr 2025",
+      points: [
+        "Consulting on student services to improve accessibility, quality, and inclusivity of campus resources.",
+      ],
+    },
+    {
+      title: "Chief Vice President",
+      organization_name: "NeurAlbertaTech (UAlberta Chapter)",
+      icon: neuralbertaLogo,
+      iconBg: "#E6DEDD",
+      date: "Oct 2022 - Apr 2024",
+      points: [
+        "Assisted in managing NeurAlbertaTech operations, including planning and executing events and initiatives.",
+        "Developed and implemented long-term strategies and goals for the UAlberta chapter.",
+        "Oversaw administrative tasks and internal documentation.",
+      ],
+    },
+    {
+      title: "Social Impact Coordinator",
+      organization_name: "University of Alberta Black Students' Association (UABSA)",
+      icon: uabsaLogo,
+      iconBg: "#383E56",
+      date: "May 2023 - Apr 2024",
+      points: [
+        "Consulted organizations on best practices to advance diversity and minority inclusion.",
+        "Sourced and distributed self-development and career opportunities for Black and minority students.",
+      ],
+    },
+    {
+      title: "Vice President Internal",
+      organization_name: "Blueprint (UofA Chapter)",
+      icon: blueprintLogo,
+      iconBg: "#E6DEDD",
+      date: "May 2023 - Aug 2023",
+      points: [
+        "Improved team output and organizational culture at Blueprint.",
+        "Helped facilitate pro-bono app development for nonprofits and in-need groups.",
+      ],
+    },
+  ];
+  
+  export { services, technologies, experiences, testimonials, projects, leaderships };
+  
