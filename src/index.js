@@ -55,7 +55,7 @@ import {
   neuralbertaLogo,
   uabsaLogo,
   blueprintLogo
-} from "../assets";
+} from "./assets";
 
 // If updating, update index.js first and then simply copy that exact file into constants.js.
 // Make sure any new images are exported by src/assets/index.js before updating src/constants/index.js and src/constants/constants.js
@@ -160,7 +160,8 @@ const experiences = [
     iconBg: "#383E56", 
     date: "May 2025 - Aug 2025",
     points: [
-      "Azure API Management"
+      "Built and shipped core features for the Azure Site Reliability Engineering AI Agent from private preview to publiclaunch, enabling intelligent root cause analysis and issue diagnosis for API Management (APIM).", "Developed agent workflows for automated troubleshooting, backend health correlation, and remediation across distributed Azure cloud services.", "Authored and published the public release blog: Introducing API Management Support in the Azure SRE Agent."
+
     ],
   },
   {
@@ -220,34 +221,36 @@ const experiences = [
     ],
   },
 ];
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
+    {
+      name: "FluteVision",
+      description:
+        "A webapp to gamify learning the flute through computer vision",
+      tags: [
+        {
+          name: "Computer Vision",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CI/CD",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: spectrumsync,
+      source_code_link: "https://github.com/hamidatb/FluteVision",
+    },
     {
       name: "SpectrumSync",
       description:
@@ -489,5 +492,5 @@ const experiences = [
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects, leaderships };
+  export { services, technologies, experiences, projects, leaderships };
   
