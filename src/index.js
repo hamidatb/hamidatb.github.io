@@ -340,27 +340,6 @@ const experiences = [
       direct_app_link: "https://chromewebstore.google.com/detail/quicknotes/kbiajefahoihmligpokjjlmapknnonlc",
     },
     {
-      name: "AnnounceAce",
-      description:
-        "A Discord bot designed to automate the scheduling and announcement process, enhancing server management and user engagement.",
-      tags: [
-        {
-          name: "Discord API",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "green-text-gradient",
-        },
-        {
-          name: "GPT-3.5 Turbo",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: announceace,
-      source_code_link: "https://github.com/hamidatb/AnnounceAce",
-    },
-    {
       name: "StudyCircle",
       description:
       "A web application dedicated to connecting University of Alberta students with compatible study groups. Our app is designed to facilitate seamless collaboration, enhance academic success, and cater to the unique needs of the UAlberta community.",
