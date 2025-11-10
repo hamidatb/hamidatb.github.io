@@ -13,20 +13,6 @@ import {
   git,
   html,
   javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
   python1,
   uber,
   rehab,
@@ -40,7 +26,7 @@ import {
   sql,
   microsoft,
   quicknotes,
-  azure,
+  autoexec,
   dotnet,
   csharp,
   aitictactoe,
@@ -54,6 +40,7 @@ import {
   uaisLogo,
   neuralbertaLogo,
   uabsaLogo,
+  flutevision,
   blueprintLogo
 } from "./assets";
 
@@ -225,31 +212,31 @@ const experiences = [
     {
       name: "FluteVision",
       description:
-        "A webapp to gamify learning the flute through computer vision",
+        "An AI-powered web app that gamifies flute learning through real-time computer vision, gesture tracking, and feedback. Built to make instrument practice more engaging and accessible for beginners.",
       tags: [
-        {
-          name: "Computer Vision",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "ML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "CI/CD",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
+        { name: "Computer Vision", color: "blue-text-gradient" },
+        { name: "Machine Learning", color: "green-text-gradient" },
+        { name: "JavaScript", color: "pink-text-gradient" },
+        { name: "Python", color: "yellow-text-gradient" },
+        { name: "CI/CD", color: "blue-text-gradient" },
       ],
-      image: spectrumsync,
+      image: flutevision,
       source_code_link: "https://github.com/hamidatb/FluteVision",
+      direct_app_link: "https://flutevision-web-cd91d82764ea.herokuapp.com/", 
+    },
+    {
+      name: "AutoExec",
+      description:
+        "An AI Agent for student organization management that automates meeting minutes parsing, task tracking, and reminders. Built with LangChain, GPT-4, and Google APIs to simplify collaboration for university clubs and societies.",
+      tags: [
+        { name: "Python", color: "blue-text-gradient" },
+        { name: "LangChain", color: "green-text-gradient" },
+        { name: "Discord API", color: "pink-text-gradient" },
+        { name: "OpenAI GPT-4", color: "yellow-text-gradient" },
+        { name: "Cloud Deployment", color: "blue-text-gradient" },
+      ],
+      image: autoexec, 
+      source_code_link: "https://github.com/hamidatb/AutoExec",
     },
     {
       name: "SpectrumSync",
@@ -305,7 +292,6 @@ const experiences = [
       image: neurotune,
       source_code_link: "https://github.com/hamidatb/NeuroTune",
     },
-
     {
       name: "SignSpell AI",
       description:

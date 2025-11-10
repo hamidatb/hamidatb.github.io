@@ -46,15 +46,17 @@ import microsoft from  "./company/microsoft.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import signspell from "./signspell.jpeg";
+import signspell from "./signspell.gif";
 import studycirle from "./studycircle.png";
 import announceace from "./announceace.png";
-import quicknotes from "./quicknotes.png";
+import quicknotes from "./quicknotes.gif";
 import aitictactoe from "./aitictactoeplayer.png";
 import portfolio from "./portfolio.png";
-import spectrumsync from "./spectrumsync.png";
-import neurotune from "./neurotune.png";
+import spectrumsync from "./spectrumsync.gif";
+import neurotune from "./neurotune.gif";
 import auriel from "./auriel.png";
+import autoexec from "./autoexec.gif";
+import flutevision from "./flutevision.gif";
 
 import uaisLogo from "./company/uaisLogo.png"
 import neuralbertaLogo from "./company/neuralbertaLogo.jpeg"
@@ -108,6 +110,7 @@ export {
   azure,
   dotnet,
   csharp,
+  flutevision,
   aitictactoe,
   portfolio,
   spectrumsync,
@@ -118,5 +121,6 @@ export {
   uaisLogo,
   neuralbertaLogo,
   uabsaLogo,
-  blueprintLogo
+  blueprintLogo,
+  autoexec
 };
