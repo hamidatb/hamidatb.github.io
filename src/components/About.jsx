@@ -54,7 +54,7 @@ const About = () => {
       >
         <br></br>
         <p>
-          I’m a 4th-year Computing Science student at the University of Alberta, passionate about designing scalable systems, architecting clean code, and creating software with real-world impact.
+          I’m a Software Engineer at Microsoft, passionate about designing scalable systems, architecting clean code, and creating software with real-world impact.
         </p>
         <br></br>
 

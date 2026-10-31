@@ -141,6 +141,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Microsoft",
+    icon: microsoft,
+    iconBg: "#383E56",
+    date: "Aug 2026 - Present",
+    points: [
+      "Working on the Azure API Management AI Gateway in CoreAI.",
+    ],
+  },
+  {
+    title: "Undergraduate Researcher - Human Computer Interaction",
+    company_name: "University of Alberta",
+    icon: ualberta,
+    iconBg: "#383E56",
+    date: "Jan 2026 - Apr 2026",
+    points: [
+      "Conducted research on visual-first ASL dictionary retrieval in the Educational Technology, Knowledge, Language, and Learning Analytics (EdTeKLA) Research Group, designing a computer vision pipeline that converts sign videos into pose sequences for retrieval using MediaPipe.",
+      "Built a machine learning pipeline using recurrent neural networks with attention to classify ASL signs into structural groups before retrieval.",
+      "Worked under the supervision of Dr. Carrie Demmans-Epp and Rouzbeh Ghahreman.",
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Microsoft",
     icon: microsoft,

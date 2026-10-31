@@ -25,3 +25,8 @@ This portfolio is designed to provide a comprehensive overview of my technical s
 - **package.json & package-lock.json**: NPM configuration files listing project dependencies.
 - **.eslintrc.cjs, postcss.config.cjs, tailwind.config.cjs, vite.config.js**: Configuration files for ESLint, PostCSS, TailwindCSS, and Vite respectively.
 
+## Updating Experience
+
+Work experience is defined in [src/index.js](./src/index.js), with the newest roles first. Keep dates as month/year ranges rather than relative durations. The introductions in [Hero.jsx](./src/components/Hero.jsx) and [About.jsx](./src/components/About.jsx) should reflect the current role.
+
+Run `npm ci` to restore dependencies, then `npm run build` to verify changes. `npm run deploy` builds and publishes `dist/` to the `gh-pages` branch used by the portfolio's GitHub Pages site.

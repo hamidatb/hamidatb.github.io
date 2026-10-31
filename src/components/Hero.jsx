@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-4 mb-10 text-white-100`}>
             <br className='sm:block hidden' />
-            👋🏾 I'm a 4th-year Computing Science student at the University of Alberta, passionate about building meaningful, user-focused software.  
+            👋🏾 I'm a Software Engineer at Microsoft, passionate about building meaningful, user-focused software.  
   <br /><br />
   I thrive at the intersection of innovation and purpose<br /> — blending precision with creativity to build<br /> software that's robust, elegant, and built to last.
 
